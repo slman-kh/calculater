@@ -1,0 +1,207 @@
+            body {
+                background: #ffc0cb;
+            }
+            
+            .calculator {
+                border-radius: 20px;
+                position: relative;
+                z-index: 1;
+                background: #FFFFFF;
+                width: 300px;
+                height: 550px;
+                margin: 100px auto 100px;
+                padding: 45px;
+                text-align: center;
+                box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+            }
+            
+            .calculator .my {
+                background: #04AA6D;
+                width: 95%;
+                height: 40px;
+                padding-right: 10px;
+                padding-top: 10px;
+                padding-left: 10px;
+                padding-bottom: 0px;
+                margin-top: 0px;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                color: #FFFFFF;
+                border-radius: 20px 20px 0 0;
+                font-weight: bold;
+                font-size: x-large;
+            }
+            
+            .input {
+                float: left;
+                text-align: left;
+                background-color: #FFFFFF;
+            }
+            
+            h2 {
+                margin-top: 30px;
+                float: left;
+                background-color: #FFFFFF;
+            }
+            
+            input[type="text"]:hover {
+                color: #14131452;
+            }
+            
+            .calculator #input2 {
+                background-color: #b22222;
+                color: white;
+                font-size: 100%;
+            }
+            
+            div #choice {
+                background-color: #b22222;
+            }
+            
+            #input2 {
+                background-color: #b22222;
+                color: white;
+                font-size: 100%;
+                margin-top: 50px;
+                border: none;
+                padding: 10px 10px;
+                width: 50%;
+            }
+            
+            #input2:hover {
+                background-color: #270606;
+            }
+            
+            select {
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                -ms-appearance: none;
+                appearance: none;
+                outline: 0;
+                box-shadow: none;
+                border: 0 !important;
+                background: #fff;
+                background-image: none;
+                flex: 1;
+                padding: 0 .5em;
+                color: black;
+                cursor: pointer;
+                font-size: 1em;
+                font-family: 'Open Sans', sans-serif;
+            }
+            
+            select::-ms-expand {
+                display: none;
+            }
+            
+            .select {
+                position: relative;
+                display: flex;
+                width: 20em;
+                height: 3em;
+                line-height: 3;
+                background: #fff;
+                overflow: hidden;
+                border-radius: .25em;
+            }
+            
+            option:hover {
+                background-color: yellow;
+                color: red;
+            }
+            
+            .select::after {
+                content: '\25BC';
+                position: absolute;
+                top: 0;
+                right: 0;
+                padding: 0 1em;
+                background: #432d74;
+                cursor: pointer;
+                pointer-events: none;
+                transition: .25s all ease;
+                color: #fff;
+            }
+            
+            .result {
+                padding: 10px;
+                width: 70%;
+                margin: auto;
+                font-size: large;
+                font-weight: bold;
+                display: none;
+            }
+            /* .select:hover::after {
+                color: #23b499;
+             } */
+            
+            .result:hover {
+                background-color: yellow;
+            }
+            
+            .footer {
+                color: #fff;
+                font-weight: bold;
+                font-size: x-large;
+                padding: 10px;
+                width: 300px;
+                margin: 100px auto 100px;
+                padding: 45px;
+                text-align: center;
+            }
+            
+            @media screen and (max-width: 500px) {
+                .calculator {
+                    border-radius: 20px;
+                    position: relative;
+                    z-index: 1;
+                    background: #FFFFFF;
+                    width: 200px;
+                    height: 550px;
+                    margin: 100px auto 100px;
+                    padding: 45px;
+                    text-align: center;
+                    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+                }
+                select {
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    -ms-appearance: none;
+                    appearance: none;
+                    outline: 0;
+                    box-shadow: none;
+                    border: 0 !important;
+                    background: #fff;
+                    background-image: none;
+                    flex: 1;
+                    padding: 0 .5em;
+                    color: black;
+                    cursor: pointer;
+                    font-size: 1em;
+                    font-family: 'Open Sans', sans-serif;
+                }
+                .select {
+                    position: relative;
+                    display: flex;
+                    width: 10em;
+                    height: 3em;
+                    line-height: 3;
+                    background: #fff;
+                    overflow: hidden;
+                    border-radius: .25em;
+                }
+                .footer {
+                    color: #fff;
+                    font-weight: bold;
+                    font-size: x-large;
+                    padding: 10px;
+                    width: 200px;
+                    margin: 100px auto 100px;
+                    padding: 45px;
+                    text-align: center;
+                }
+            }
+            #name{
+                color: black;
+            }
